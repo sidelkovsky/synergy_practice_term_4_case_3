@@ -80,3 +80,54 @@ h1 {
     padding-left: 0.75rem;
     border-radius: 1rem 0 0 1rem;
   }
+
+
+
+  .container {
+    width: 200px;
+    background: #eaeaea;
+    text-align: center;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+  }
+  #carousel {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    width: 200px;
+    max-height: 140px;
+  }
+  #carousel-pagination ul {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+  }
+  #carousel-pagination-items li {
+    padding: 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    display: inline-block;
+    border: 1px solid gray;
+  }
+  #carousel-pagination-items li.active-circle {
+    background: gray;
+  }
+  #carousel ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+  }
+  #carousel ul li {
+    padding: 20px;
+    width: 160px;
+    height: 100px;
+    float: left;
+    background: gray;
+    font-size: 40px;
+  }
+  .button-group button {
+    padding: 6px 10px; 
+    margin-bottom: 8px;
+  }
